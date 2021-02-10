@@ -1,0 +1,19 @@
+{
+  "name": "despot-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "C Sinclair",
+  "license": "MIT",
+  "dependencies": {
+    "despot": "../lib"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.11"
+  }
+}
