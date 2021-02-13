@@ -1,5 +1,5 @@
 {
-  "name": "despot-example",
+  "name": "lentils-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,6 @@
   "keywords": [],
   "author": "C Sinclair",
   "license": "MIT",
-  "dependencies": {
-    "despot": "../lib"
-  },
   "devDependencies": {
     "snowpack": "^3.0.11"
   }

@@ -1,6 +1,7 @@
 import { counter, decrement, increment, set } from "../state/counter.js";
-import { useState, html } from "despot";
+import { useState, html } from "../../lib/index.js";
 import { Header } from "./Header.js";
+import { Routes } from "./Routes.js";
 
 export const App = () => {
   const title = "Awesome P.O.V";
@@ -32,6 +33,8 @@ export const App = () => {
         <button @click=${increment}>+</button>
         <button @click=${decrement}>-</button>
       </section>
+
+      ${Routes()}
     </main>
   `;
 };

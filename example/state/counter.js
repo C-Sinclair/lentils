@@ -1,4 +1,4 @@
-import { dispatch, getState } from "despot";
+import { dispatch, getState } from "../../lib/index.js";
 
 export const counter = () => getState().counter;
 

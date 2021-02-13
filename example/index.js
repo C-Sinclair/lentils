@@ -1,4 +1,4 @@
-import { mount } from "despot";
+import { mount } from "../lib/index.js";
 import { App } from "./components/App.js";
 import "./state/index.js";
 

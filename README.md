@@ -1,3 +1,5 @@
+# Lentils
+
 - [ ] Needs a kickass name
 - [x] Local component state
 - [x] Global app state
